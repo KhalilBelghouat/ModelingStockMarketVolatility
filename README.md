@@ -1,1 +1,1 @@
-# ModelingStockMarketVolatility
+# Modeling Stock Market Volatility
