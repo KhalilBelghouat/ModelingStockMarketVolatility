@@ -20,6 +20,16 @@ All operations, from data preprocessing to model estimation, were carried out on
 
 The data, a financial time series, is organized in a table containing 3 columns and 7,214 rows. The first column contains the date, the second column contains the MADEX index, and the third column contains the index's daily variations.
 
-### Data Preprocessing
+### Model Building and Estimation
 
-### Model Estimation
+Ruey S. Tsay states in the third chapter of his book, "Analysis of Financial Time Series," that building a volatility model for an asset return series consists of four principal steps:
+
+- Specify a mean equation by testing for serial dependence in the data and, if necessary, building an econometric model for the return series to remove any linear dependence.
+
+- Use the residuals of the mean equation to test for ARCH effects.
+
+- Specify a volatility model if ARCH effects are statistically significant, and perform a joint estimation of the mean and volatility equations.
+
+- Check the fitted model carefully and refine it if necessary.
+
+For the mean equation, an ARIMA(3, 0, 1) model was selected using the ```auto.arima``` function which returns the best ARIMA model according to either AIC, AICc or BIC value. As for the volatility, a variety of GARCH and extension models were applied and estimated using the ```rugarch``` package.
