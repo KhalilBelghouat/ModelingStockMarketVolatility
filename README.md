@@ -16,7 +16,7 @@ Volatility refers to the dispersion of all the probable outcomes of an uncertain
 
 ## Application and Results
 
-Following the principal steps, mentionned in the last section, layed by Ruey S. Tsay in his book. We applied various volatility models to the Moroccan Most Active Shares Index.
+Following the principal steps layed by Ruey S. Tsay in his book, we applied various volatility models to the Moroccan Most Active Shares Index.
 
 - for the parameters of the GEV model:
 
