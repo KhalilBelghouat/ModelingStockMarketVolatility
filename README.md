@@ -22,8 +22,8 @@ Following the principal steps layed by Ruey S. Tsay in his book, we applied vari
 
  | AR(1)| AR(2) | AR(3) | MA(1)
 --- | --- | --- | --- |
- |  |  | | 
- |  |  | | 
+Estimate | 0.3698 | 0.0038 | -0.0503 | -0.1858 
+Standard Error | 0.3525 | 0.0683 | 0.0211 | 0.3529
 
 - :
 
