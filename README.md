@@ -16,6 +16,43 @@ Volatility refers to the dispersion of all the probable outcomes of an uncertain
 
 ## Application and Results
 
+Following the principal steps, mentionned in the last section, layed by Ruey S. Tsay in his book. We applied various volatility models to the Moroccan Most Active Shares Index.
+
+- for the parameters of the GEV model:
+
+Tail | location | scale | shape
+--- | --- | --- | --- 
+**Left** | 0.021800794 | 0.009030447 | 0.237656761
+**Right** | 0.025393659 | 0.009684089 | -0.105213186
+
+- for the parameters of GPD model:
+
+Tail | scale | shape
+--- | --- | --- 
+**Left** | 0.007033938 | 0.156857714 
+**Right** | 0.006054659 | 0.132294303
+
+- for VaR and ES at a 95% confidence level:
+
+Method | VaR | ES 
+--- | --- | --- 
+**Historical** | -0.0105750 | -0.01794283
+**Parametric** | -0.0121665 | -0.0153354
+
+- for VaR and ES at a 99% confidence level:
+
+Method | VaR | ES 
+--- | --- | --- 
+**Historical** | -0.02138261 | -0.03182365
+**Parametric** | -0.01733472 | -0.01990456
+
+- for GPD VaR and GPD ES at a 99% confidence level:
+
+Tail | VaR | ES 
+--- | --- | --- 
+**Left** | -0.0221034308760792 | -0.0319460163734972
+**Right** | 0.0224318924777785 | 0.0305366764754648
+
 ## Code Structure
 
 ### About The Data
