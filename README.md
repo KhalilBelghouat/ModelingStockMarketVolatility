@@ -12,6 +12,8 @@ All operations, from data preprocessing to model estimation, were carried out on
 
 ## Theoretical Background
 
+Volatility refers to the dispersion of all the probable outcomes of an uncertain variable. In financial markets, the variable of interest is often the return of a specific security, stock index or portfolio. In most cases, the higher the volatility, the riskier the security. Volatility is extremely important since a variety of risk measures, such as VaR (Value at Risk) and ES (Expected Shortfall), depend on it. However, a multiplicity of pricing models assume that the volatility of the underlying is constant. In practice, some periods exhibit higher volatility than others. The variance is not constant but heteroscedastic. And unlike asset prices, it is not observable, that is to say, volatility is a latent variable to be estimated.
+
 ## Application and Results
 
 ## Code Structure
