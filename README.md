@@ -18,12 +18,12 @@ Volatility refers to the dispersion of all the probable outcomes of an uncertain
 
 Following the principal steps layed by Ruey S. Tsay in his book, we applied various volatility models to the Moroccan Most Active Shares Index.
 
-- :
+- for the ARIMA model:
 
- |  |  |
---- | --- | --- | --- 
- |  |  | 
- |  |  | 
+ | AR(1)| AR(2) | AR(3) | MA(1)
+--- | --- | --- | --- |
+ |  |  | | 
+ |  |  | | 
 
 - :
 
