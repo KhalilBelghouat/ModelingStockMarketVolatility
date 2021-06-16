@@ -1,6 +1,6 @@
 # Modeling Stock Market Volatility
 
-This repository includes the code used in one of the master's projects "Modeling Stock Market Volatility" by Khalil Belghouat, .
+This repository includes the code used in one of the master's projects "Modeling Stock Market Volatility" by Khalil Belghouat, Fadoua Essalhi, Khaoula Ghazal, Amal Essakali and Abdelmalek Boumdir.
 
 In this project, we apply symmetric and asymmetric GARCH models to one of Morocco stock indices, namely, the MADEX index. 
 
