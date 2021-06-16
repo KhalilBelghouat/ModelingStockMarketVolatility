@@ -20,7 +20,7 @@ Following the principal steps layed by Ruey S. Tsay in his book, we applied vari
 
 - for the ARIMA model:
 
-moi | AR(1) | 
+| AR(1) | 
 --- | --- | 
 Estimate | | 
 Standard Error | | 
