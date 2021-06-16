@@ -22,8 +22,8 @@ Following the principal steps layed by Ruey S. Tsay in his book, we applied vari
 
  - | AR(1) | 
 --- | --- 
-Estimate | 0.3698 | 
-Standard Error | 0.3525 | 
+Estimate | 0.3698  
+Standard Error | 0.3525  
 
 - :
 
