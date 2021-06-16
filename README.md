@@ -18,6 +18,8 @@ All operations, from data preprocessing to model estimation, were carried out on
 
 ### About The Data
 
+The data, a financial time series, is organized in a table containing 3 columns and 7,214 rows. The first column contains the date, the second column contains the MADEX index, and the third column contains the index's daily variations.
+
 ### Data Preprocessing
 
 ### Model Estimation
