@@ -42,7 +42,7 @@ Information Criterion | AIC | BIC
 --- | --- | --- 
 GARCH | -7.3549  | -7.3376
 EGARCH | -7.3519 | -7.3324 
-GJR-GARCH | 7.3542  | -7.3348 
+GJR-GARCH | -7.3542  | -7.3348 
 TGARCH |  -7.3091 | -7.2897 
 NAGARCH |  -7.3541  | -7.3347
  
